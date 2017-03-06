@@ -1,0 +1,65 @@
+@import "assets/bower_components/compass-sass-mixins/lib/compass";
+
+
+
+/* color var */
+
+$blue: #0288D1;
+$white01: #efefef;
+$orange: #ff9800;
+$light-grey:#b5b5b5;
+
+
+/* Your CSS */
+
+body{
+  background-color:$white01;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container{
+   position: absolute;
+    top: 40%;
+    height: 30%;
+    width: 50%;
+    width:100%;
+
+
+}
+
+.logo{
+  color:$blue;
+  font-size: 60px;
+    font-family:sans-serif;
+    text-align: center;
+    width: 100%;
+
+}
+
+h3{
+    font-family:sans-serif;
+    text-align: center;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    color:$light-grey;
+    margin-top: 0px;
+}
+
+a{
+    background-color:$orange;
+    width: 230px;
+    margin:0px auto;
+    display:block;
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+    @include border-radius(10px);
+    
+    &:hover{
+        background-color: $blue;
+    }
+  
+}
+

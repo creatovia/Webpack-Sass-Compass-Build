@@ -1,0 +1,19 @@
+{
+  "name": "creatovia",
+  "version": "1.0.0",
+  "description": "Starter Web-development Setup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -p --watch"
+  },
+  "author": "Creatovia - http://creatovia.com/",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1"
+  }
+}

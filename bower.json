@@ -1,0 +1,21 @@
+{
+  "name": "creatovia",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Code Monger <mongercode@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "compass-sass-mixins": "*"
+  }
+}
